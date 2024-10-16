@@ -314,8 +314,8 @@ clear
 clear
 #GANTI PASSWORD DEFAULT
 restart_system(){
-    USRSC=$(curl -sS https://raw.githubusercontent.com/Zaa-Store/vip/main/izin | grep $MYIP | awk '{print $2}')
-    EXPSC=$(curl -sS https://raw.githubusercontent.com/Zaa-Store/vip/main/izin | grep $MYIP | awk '{print $3}')
+    USRSC=$(curl -sS https://raw.githubusercontent.com/ZxxLKX/bau/main/izin | grep $MYIP | awk '{print $2}')
+    EXPSC=$(curl -sS https://raw.githubusercontent.com/ZxxLKX/bau/main/izin | grep $MYIP | awk '{print $3}')
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>────────────────────</code>
